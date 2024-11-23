@@ -10,7 +10,7 @@ os.makedirs(BASE_DIR, exist_ok=True)
 MASHUP_FILE = os.path.join(BASE_DIR, "mashup.mp3")
 
 # Configure ffmpeg path for pydub
-AudioSegment.ffmpeg = r"C:\ffmpeg-2024-11-21-git-f298507323-full_build\bin\ffmpeg.exe"
+AudioSegment.ffmpeg = r"Path to ffmpeg.exe file"
 
 # Ensure the mashup.mp3 is initialized as a valid file
 if not os.path.exists(MASHUP_FILE):
