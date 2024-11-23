@@ -104,6 +104,7 @@ AudioSegment.ffmpeg = r"path of ffmpeg.exe"  # Modify this line in app.py
 ```plaintext
 /Song-Mashup-Downloader
 ├── app.py                  # Main Flask application
+├── mashup.py                 # Python code
 ├── requirements.txt        # List of dependencies
 ├── templates/
 │   └── index.html          # HTML form for user interaction
