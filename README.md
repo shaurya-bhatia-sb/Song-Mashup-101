@@ -56,8 +56,22 @@ Make sure you have `ffmpeg` installed and accessible via your system's PATH. If 
 Alternatively, you can specify the full path to `ffmpeg` in your script if it’s not added to the PATH.
 
 ```python
-AudioSegment.ffmpeg = r"C:\path	of ffmpeg.exe"  # Modify this line in app.py
+AudioSegment.ffmpeg = r"path	of ffmpeg.exe"  # Modify this line in app.py
 ```
+
+
+## Web Preview
+
+### Homepage
+![Homepage](Mashup%20songs/screenshots/Homepage.png)
+
+### Success
+![Success](Mashup%20songs/screenshots/Success.png)
+
+### Received Mail
+![Success](Mashup%20songs/screenshots/Mail.png)
+
+
 
 ## Usage
 
